@@ -10,3 +10,7 @@ https://fonts.google.com/
 
 https://stackoverflow.com/questions/14524297/how-to-scroll-to-div-after-click-on-about-or-contact-in-my-menu
 ^autoscrolling to certain divs
+
+
+Thank you to Anli: https://azmind.com/bootstrap-4-tutorial-one-page-website/#creating-the-navbar
+I'm so happy I didn't have to learn how to animate things.

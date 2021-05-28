@@ -1,44 +1,189 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> Aeio </title>
-    <link rel="stylesheet" href="assets/css/ext/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/stylesheet.css">
 
-    <link rel="script" href="assets/js/ext/jquery-3.5.1.min.js">
-    <link rel="script" href="assets/js/ext/bootstrap.bundle.min.js">
-    <script language="javascript" src="script.js"> </script>
+    <head>
 
-</head>
-<body>
-  <nav class="navbar navbar-expand-lg navbar-light" style = "background-color: yellow">
-    <a class="navbar-brand" href="#">aeio</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+		<!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Act 1 <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Act 2</a>
-        </li>
-
-      </ul>
-    </div>
-  </nav>
-  <div class="content">
-    <h1> content </h1>
-  <div>
+        <title>Story</title>
 
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-</body>
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+        <link rel="stylesheet" href="assets/css/ext/animate.css">
+        <link rel="stylesheet" href="assets/css/ext/style.css">
+        <link rel="stylesheet" href="assets/css/ext/media-queries.css">
+
+		<!-- Javascript -->
+		<script src="assets/js/ext/jquery-3.2.1.min.js"></script>
+		<script src="assets/js/ext/jquery-migrate-3.0.0.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script src="assets/js/ext/jquery.backstretch.min.js"></script>
+		<script src="assets/js/ext/wow.min.js"></script>
+		<script src="assets/js/ext/retina-1.1.0.min.js"></script>
+		<script src="assets/js/ext/waypoints.min.js"></script>
+		<script src="assets/js/ext/scripts.js"></script>
+
+        <!-- Favicon and touch icons -->
+        <link rel="shortcut icon" href="assets/ico/favicon.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+
+
+        <link rel="stylesheet" href="assets/css/stylesheet.css">
+    </head>
+
+    <body>
+
+		<!-- Top menu -->
+		<nav class="navbar navbar-dark fixed-top navbar-expand-md" style= "background-image: url("2.png")">
+			<div class="container">
+			    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			        <span class="navbar-toggler-icon"></span>
+			    </button>
+			    <div class="collapse navbar-collapse" id="navbarNav">
+			        <ul class="navbar-nav ml-auto mr-auto">
+			            <li class="nav-item">
+			                <a class="nav-link scroll-link" href="#top-content">Main</a>
+			            </li>
+			            <li class="nav-item">
+			                <a class="nav-link scroll-link" href="#act1">Act 1</a>
+			            </li>
+			            <li class="nav-item">
+			                <a class="nav-link scroll-link" href="#act2">Act 2</a>
+			            </li>
+			            <li class="nav-item">
+			                <a class="nav-link scroll-link" href="#act3">Act 3</a>
+			            </li>
+			            <li class="nav-item">
+			                <a class="nav-link scroll-link" href="#act4">Act 4</a>
+			            </li>
+			            <li class="nav-item">
+			                <a class="nav-link scroll-link" href="#act5">Act 5</a>
+			            </li>
+			        </ul>
+			    </div>
+		    </div>
+		</nav>
+
+        <!-- Top content -->
+        <div class="top-content">
+            <div class="container">
+                <div class="row">
+                  <div class="col-md-8 offset-md-2 text">
+                      <h1 class="wow fadeInLeftBig">You. Me.</h1>
+                      <div class="description wow fadeInLeftBig">
+                        <p>
+                        Sometimes, relationships are less about finding your other half and more about realizing that you're not a whole half yourself.
+                        </p>
+                      </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- act1 -->
+        <div class="act1-container section-container">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col section-description wow fadeIn">
+	                    <h2>Act 1</h2>
+	                    <div class="divider-1 wow fadeInUp"><span></span></div>
+	                </div>
+	            </div>
+	        </div>
+        </div>
+
+        <!-- act2 -->
+        <div class="act2-container section-container section-container-gray-bg">
+	        <div class="container">
+	            <div class="row">
+					<div class="col section-description wow fadeIn">
+						<h2>Act 2</h2>
+						<div class="divider-1 wow fadeInUp"><span></span></div>
+					</div>
+	            </div>
+	        </div>
+        </div>
+
+		<!-- act3 -->
+        <div class="act3-container section-container">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col section-description wow fadeIn">
+	                    <h2>Act 3</h2>
+	                    <div class="divider-1 wow fadeInUp"><span></span></div>
+	                </div>
+	            </div>
+
+	        </div>
+        </div>
+	<!-- act4 -->
+		<div class="act4-container section-container section-container-gray-bg">
+			<div class="container">
+				<div class="row">
+					<div class="col section-description wow fadeIn">
+						<h2>Act 4</h2>
+						<div class="divider-1 wow fadeInUp"><span></span></div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+	<!-- act5 -->
+		<div class="act5-container section-container">
+			<div class="container">
+				<div class="row">
+					<div class="col section-description wow fadeIn">
+						<h2>Act 5</h2>
+						<div class="divider-1 wow fadeInUp"><span></span></div>
+					</div>
+				</div>
+
+				<div class="row">
+					<p id="act5-text-block"></p>
+				</div>
+			</div>
+		</div>
+
+        <!-- Footer -->
+        <footer>
+	        <div class="container">
+	        	<div class="row">
+                    <div class="col-md-5 footer-left">
+                    	<h2>Aeio Music</h2>
+                    </div>
+
+                    <div class="col-md-6 offset-md-1 footer-right">
+                    	<a href="#"><i class="fab fa-facebook-f"></i></a>
+						<a href="#"><i class="fab fa-dribbble"></i></a>
+						<a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="row">
+                	<div class="col footer-bottom">
+		           		<a class="scroll-link" href="#top-content"><i class="fas fa-chevron-up"></i></a>
+		           	</div>
+                </div>
+	        </div>
+        </footer>
+
+		<script>
+			$(document).ready(function() {
+				console.log( "ready!" );
+				$('#act5-text-block').after("new text.");
+				console.log( "finished writing stuff" );
+			});
+		</script>
+    </body>
+
 </html>
