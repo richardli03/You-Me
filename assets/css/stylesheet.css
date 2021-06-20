@@ -39,7 +39,6 @@ a:active {
 
 .toptext{
   margin-top:50px;
-  padding-top:50px;
   background-color: black;
   border-radius:1rem;
   color:white;
@@ -56,6 +55,11 @@ a:active {
   margin-bottom:0px;
   padding-bottom:0px;
   height: auto;
+}
+
+.storytext{
+  text-align: left;
+  font-family: "Georgia",monospace;
 }
 
 h1{

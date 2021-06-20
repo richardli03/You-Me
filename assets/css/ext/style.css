@@ -53,7 +53,6 @@ img { max-width: 100%; }
 
 .section-description p {
     margin-top: 20px;
-	padding: 0 120px;
 }
 .section-container-image-bg .section-description p {
 	opacity: 0.8;
@@ -149,7 +148,7 @@ img { max-width: 100%; }
 /***** Top menu *****/
 
 .navbar {
-	background: rgba(0,0,0,0.9);
+	background: rgba(0,0,0,1);
 	-o-transition: all .6s; -moz-transition: all .6s; -webkit-transition: all .6s; -ms-transition: all .6s; transition: all .6s;
 	backface-visibility: hidden;
 }

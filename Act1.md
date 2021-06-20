@@ -1,5 +1,12 @@
 # Act 1
 
+```c
+  IF MODE=1 THEN
+      SIPFL := TRUE;
+    ELSEIF MODE=2 THEN
+      NOFLT := TRUE;
+```
+
 ----------------------------------------------------
 
 _Dear Danny,_
@@ -75,6 +82,6 @@ The question stumped Danny. He’d never been a big believer of any supernatural
 
 Danny closed his eyes. “This is a lot to take in.”
 
-“Well then,” Adelynn laughed, “let’s go back to talking about the more important stuff. Do you think Harvey is a secret serial killer or not?” Danny cracked up.
+	“Well then,” Adelynn laughed, “let’s go back to talking about the more important stuff. Do you think Harvey is a secret serial killer or not?” Danny cracked up.
 
 It was really too perfect. Absurdly, unrealistically perfect. This girl was laughing at his nonsensical jokes and leaning on his chest in just the right way to force the butterflies into his stomach.  They conversed a little more before heading back to their respective dormitories. Before they left, they agreed: this would not be the last time they saw each other.
