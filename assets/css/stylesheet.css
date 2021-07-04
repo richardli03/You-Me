@@ -34,16 +34,21 @@ a:active {
 }
 
 .content {
+  padding-top: 60px;
   margin-top: 30px ;
+}
+
+.top-content{
+  background-color: black;
+  color:white;
 }
 
 .toptext{
   margin-top:50px;
-  background-color: black;
+  background-color: #ffd9c9;
   border-radius:1rem;
-  color:white;
+  color:black;
   margin-bottom:50px;
-  padding-bottom:50px;
 }
 
 .img-cover{
@@ -69,4 +74,8 @@ h1{
 h2{
   font-family: 'Kaushan Script', cursive;
 
+}
+
+h3{
+  font-size:50px;
 }
