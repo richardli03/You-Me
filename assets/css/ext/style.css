@@ -177,7 +177,7 @@ img { max-width: 100%; }
 }
 
 .top-content .description p {
-
+	margin: 30px 0 10px 0;
  }
 
 .top-content .top-big-link {

@@ -44,11 +44,17 @@ a:active {
 }
 
 .toptext{
-  margin-top:50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-bottom: 10px;
+  width: 85%;
+  margin-right: auto;
+  margin-left: auto;
   background-color: #ffd9c9;
   border-radius:1rem;
   color:black;
-  margin-bottom:50px;
+  text-align: center;
+
 }
 
 .img-cover{
