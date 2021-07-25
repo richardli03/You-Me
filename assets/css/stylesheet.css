@@ -8,6 +8,9 @@ body {
 
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
+hr{
+  border: 3px dotted #ffd9c9;
+}
 a:link {
     color: #ffb84d;
     background-color: transparent;

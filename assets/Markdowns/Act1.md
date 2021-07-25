@@ -1,12 +1,4 @@
 # Act 1
-
-```c
-  IF MODE=1 THEN
-      SIPFL := TRUE;
-    ELSEIF MODE=2 THEN
-      NOFLT := TRUE;
-```
-
 ----------------------------------------------------
 
 _Dear Danny,_

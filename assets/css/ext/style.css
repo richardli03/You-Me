@@ -43,6 +43,7 @@ img { max-width: 100%; }
 
 .section-container-image-bg .divider-1 span {
 	border-color: #fff;
+
 }
 
 .section-description {
@@ -141,7 +142,7 @@ img { max-width: 100%; }
 .divider-1 span {
 	display: inline-block;
 	width: 200px;
-	border-bottom: 2px solid #000;
+  visibility: hidden;
 }
 
 
