@@ -29,8 +29,8 @@ img { max-width: 100%; }
 
 }
 
-.section-container-gray-bg {
-	background: #f8f8f8;
+.section-container-dif-bg {
+	background: #fffbfa;
   margin: 0 auto;
   padding-bottom: 80px;
 }
@@ -190,7 +190,7 @@ img { max-width: 100%; }
 footer {
 	padding: 40px 0 0 0;
 	background: #000;
-	color: #aaa;
+	color: #fff;
 	text-align: left;
 }
 
