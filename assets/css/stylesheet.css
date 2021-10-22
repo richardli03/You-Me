@@ -74,11 +74,11 @@ a:active {
 }
 
 h1{
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Kaushan Script', "Lucida Console" cursive;
     font-size: 60px;
 }
 h2{
-  font-family: 'Kaushan Script', cursive;
+  font-family: 'Kaushan Script', "Lucida Console" cursive;
   text-align:center;
 }
 
